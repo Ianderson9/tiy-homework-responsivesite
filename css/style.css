@@ -146,10 +146,10 @@ article {
   color: #fff;
   text-decoration: underline;
 }
-@media (min-width: 479px) {
+@media screen and (min-width: 479px) {
 
 }
-@media (min-width: 768px) {
+@media screen and (min-device-width: 768px) {
   .plans {
     flex-direction: row;
     justify-content: center;
@@ -169,7 +169,7 @@ footer {
   align-items: center;
   justify-content: center;
 }
-@media (min-width: 978px) {
+@media (min-device-width: 978px) {
   article {
     margin: 45px;
   }
